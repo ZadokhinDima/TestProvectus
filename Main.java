@@ -34,7 +34,7 @@ public class Main {
             Hand currentHand = new Hand(hand);
             iteration(currentHand, 0);
 
-            String result = maxCombination.toString().replaceAll("/_", "-");
+            String result = maxCombination.toString().replaceAll("_", "-");
             System.out.println(result);
 
         }
